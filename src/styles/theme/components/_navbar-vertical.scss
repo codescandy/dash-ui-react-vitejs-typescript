@@ -1,7 +1,6 @@
 // Navbar Vertcial
 
 .navbar-vertical {
-
   margin-left: -17rem;
   display: block;
   position: fixed;
@@ -34,12 +33,12 @@
     }
   }
   .navbar-heading {
-      color: $gray-700;
-      padding: 1rem 1.5rem;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08rem;
-      font-weight: 700;
+    color: $gray-700;
+    padding: 1rem 1.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    font-weight: 700;
   }
   .navbar-nav {
     .nav-item {
@@ -64,7 +63,6 @@
 
         &.active {
           color: $gray-200;
-
         }
 
         &.active .nav-icon {
@@ -72,12 +70,12 @@
           opacity: 1;
         }
       }
-      .nav-link[data-bs-toggle="collapse"]{
+      .nav-link[data-bs-toggle="collapse"] {
         position: relative;
         &:after {
           display: block;
           content: "";
-          background: url(../../../public/fonts/feather-icons/icons/chevron-down.svg);          
+          background: url("/src/assets/fonts/feather-icons/icons/chevron-down.svg");
           font-family: Feather;
           margin-left: auto;
           transition: 0.5s ease;
@@ -89,21 +87,17 @@
           filter: brightness(0) invert(1);
           transform: scale(0.7);
         }
-
       }
-
-
     }
     .nav-icon {
       opacity: 0.6;
-      font-size: .875rem;
+      font-size: 0.875rem;
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
     }
-    .sub-nav-icon{
-      font-size: .35rem;
-      margin-right: .5rem;
-
+    .sub-nav-icon {
+      font-size: 0.35rem;
+      margin-right: 0.5rem;
     }
     .nav {
       .nav-item {
@@ -151,11 +145,6 @@
   }
 }
 
-
 .collapse.in {
-    display: block;
-
-
-
-
+  display: block;
 }

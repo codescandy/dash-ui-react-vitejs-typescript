@@ -20,9 +20,8 @@
 @import url("../assets/fonts/feather-icons/feather.css");
 
 // Bootstrap functions
-@import "bootstrap/scss/functions";
-
-// User Variables
+// @import "bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/functions"; // User Variables
 @import "user-variables";
 
 // theme variables
@@ -33,7 +32,11 @@
 
 // Bootstrap
 // @import "bootstrap/scss/bootstrap";
-@import "bootstrap/scss/bootstrap";
+// @import "bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "bootstrap-icons/font/bootstrap-icons";
+// @import "simplebar/dist/simplebar.min.css";
+@import "../../node_modules/simplebar-react/dist/simplebar.min.css";
 
 // Theme
 @import "theme/theme";
