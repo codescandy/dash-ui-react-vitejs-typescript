@@ -9,9 +9,11 @@ const Documentation = () => {
         <Col lg={12} md={12} sm={12}>
           <div className="border-bottom pb-4 mb-4 d-md-flex justify-content-between align-items-center">
             <div className="mb-3 mb-md-0">
-              <h1 className="mb-0 h2 fw-bold">Dash UI NextJS</h1>
+              <h1 className="mb-0 h2 fw-bold">
+                Dash UI React With Vite and TypeScript
+              </h1>
               <p className="mb-0">
-                Welcome to the Dash UI NextJS version of the original Dash UI
+                Welcome to the Dash UI React JS version of the original Dash UI
                 theme.
               </p>
             </div>
@@ -24,9 +26,15 @@ const Documentation = () => {
             <Card.Body>
               <h2 className="fw-bold">Getting Started</h2>
               <p className="lead">
-                A professional Dash UI NextJS Kit that comes with plenty of
-                ready-to-use components that will help you to build more
-                beautiful application (web app).
+                A professional Dash UI React Kit built with Vite, ReactJS, and
+                TypeScript, offering a comprehensive set of ready-to-use
+                components to help you create stunning web applications. The
+                Dash UI Kit is designed with ReactJS and utilizes Vite as the
+                modern build tool for faster development and optimized
+                performance. This documentation will guide you through the
+                structure of the Dash UI Kit, provide an overview of
+                customization options, and explain how to compile the source
+                code if you need to extend or modify the theme
               </p>
 
               <p>
@@ -41,17 +49,17 @@ const Documentation = () => {
                 with react-scripts.
               </p>
               <p>
-                This doc will guide you to understand how Dash UI-NextJS theme
-                is organized, basics of how to customize, and how to compile
-                from the source code if you want.
+                Here’s the updated version of that sentence for React, Vite, and
+                TypeScript: This documentation will help you understand how the
+                Dash UI React Kit is organized, the basics of customizing it,
+                and how to compile it from the source code if you wish to extend
+                or modify the theme.
               </p>
 
               <hr className="mb-5 mt-5" />
 
               <h2 className="mb-0 fw-bold">Running in Local environment</h2>
-              <p>
-                This project is scaffolded using npx create-next-app@latest.
-              </p>
+              <p>This project is scaffolded using npm create vite@latest.</p>
 
               <ol>
                 <li>
@@ -72,14 +80,14 @@ const Documentation = () => {
                 </li>
                 <li>
                   {" "}
-                  <h4 className="mb-0 fw-bold">Install Dash UI NextJS</h4>
+                  <h4 className="mb-0 fw-bold">Install Dash UI ReactJS</h4>
                   <p>
-                    Open the <span>dashui-free-nextjs-admin-template </span>
+                    Open the <span>dash-ui-react-vitejs-typescript </span>
                     directory with your cmd or terminal. Open the project folder
                     and install its dependencies.{" "}
                   </p>
                   <pre className="prism-code language-jsx mb-2 bg-dark text-white fs-5">
-                    cd dashui-free-nextjs-admin-template{" "}
+                    cd dash-ui-react-vitejs-typescript{" "}
                   </pre>
                   <pre className="prism-code language-jsx mb-2  bg-dark text-white fs-5">
                     npm install{" "}
@@ -94,7 +102,7 @@ const Documentation = () => {
                   <p>
                     Run <code>npm run dev</code> or <code>yarn dev</code> or{" "}
                     <code>pnpm dev</code> to start the development server on
-                    http://localhost:3000
+                    http://localhost:5173
                   </p>
                   <p>
                     Visit{" "}
@@ -104,14 +112,14 @@ const Documentation = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        http://localhost:3000{" "}
+                        http://localhost:5173{" "}
                       </Link>
                     </code>{" "}
                     to view your application
                   </p>
                   <p>
-                    Edit <code>pages/index.js</code> and see the updated result
-                    in your browser
+                    Edit <code>src/main.tsx</code> and see the updated result in
+                    your browser
                   </p>
                   <pre className="prism-code language-jsx  bg-dark text-white fs-5">
                     npm run dev
@@ -138,16 +146,16 @@ const Documentation = () => {
                     <p>
                       {" "}
                       This output is generated inside the <code>
-                        .next
+                        .dist
                       </code>{" "}
                       folder:
                     </p>
                     <pre className="prism-code language-jsx  bg-dark text-white fs-5 mb-2">
-                      npm run start
+                      npm run preview
                     </pre>
                     <p>
                       Once you execute above command, the production build run
-                      locally at <code>http://localhost:3000</code>.
+                      locally at <code>http://localhost:4173</code>.
                     </p>
                   </div>
                 </li>
@@ -177,24 +185,30 @@ const Documentation = () => {
 theme/
 ├── .eslintrc.json
 ├── .gitignore
-├── jsconfig.json
-├── next.config.js
-├── package.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.json
+├── tsconfig.node.json
 ├── package-lock.json
+├── package.json
+├── vite.config.ts
 ├── README.md
-├── components/
-├── data/
-├── hooks/
-├── layouts/
-├── app/
-├── public/
-│   ├── fonts
-│   ├── images
-│   └── favicon.ico
-├── routes/
-├── styles/
-├── sub-components/
-└── widgets/
+├── src/
+  ├── data/
+  ├── assets/
+  ├── bootstrap-components/
+  ├── components/
+  ├── hooks/
+  ├── layouts/
+  ├── pages/
+  ├── public/
+  │   ├── fonts
+  │   ├── images
+  │   └── favicon.ico
+  ├── routes/
+  ├── styles/
+  ├── sub-components/
+  └── widgets/
 `}
                 </pre>
               </code>

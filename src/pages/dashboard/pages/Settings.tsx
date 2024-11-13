@@ -9,23 +9,9 @@ import { DeleteAccount, GeneralSetting } from "sub-components";
 
 const Settings = () => {
   return (
-    <Container fluid className="p-6">
-      {/* Page Heading */}
+    <Container fluid className="p-6 ">
       <PageHeading heading="General" />
-
-      {/* General Settings */}
       <GeneralSetting />
-
-      {/* Email Settings */}
-      {/* // DONE ... <EmailSetting /> */}
-
-      {/* Settings for Preferences */}
-      {/* // DONE ...<Preferences /> */}
-
-      {/* Settings for Notifications */}
-      {/* <Notifications /> */}
-
-      {/* Delete Your Account */}
       <DeleteAccount />
     </Container>
   );

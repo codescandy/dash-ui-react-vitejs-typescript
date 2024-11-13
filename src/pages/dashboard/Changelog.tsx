@@ -3,7 +3,6 @@ import { Col, Row, Container } from "react-bootstrap";
 
 // import sub components
 import Version_01_00_00 from "sub-components/changelog/Version_01_00_00";
-import Version_01_01_00 from "sub-components/changelog/Version_01_01_00";
 
 const ChangeLog = () => {
   return (
@@ -21,8 +20,6 @@ const ChangeLog = () => {
           </div>
         </Col>
       </Row>
-      <Version_01_01_00 />
-      <hr />
       <Version_01_00_00 />
     </Container>
   );

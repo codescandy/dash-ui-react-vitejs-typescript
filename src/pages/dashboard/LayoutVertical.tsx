@@ -1,3 +1,4 @@
+//import node module libraries
 import { Link } from "react-router-dom";
 import { Col, Row, Container, Image } from "react-bootstrap";
 

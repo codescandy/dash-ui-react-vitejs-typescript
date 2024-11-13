@@ -10,7 +10,6 @@ import { BillingAddress, CurrentPlan } from "sub-components";
 const Billing = () => {
   return (
     <Container fluid className="p-6">
-      {/* Page Heading */}
       <PageHeading heading="Billing" />
 
       <Row className="mt-6">
@@ -21,10 +20,7 @@ const Billing = () => {
           xs={12}
         >
           <Row>
-            {/* Current Plan Overview */}
             <CurrentPlan />
-
-            {/* Billing Address */}
             <BillingAddress />
           </Row>
         </Col>

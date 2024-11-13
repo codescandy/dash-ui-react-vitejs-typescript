@@ -59,7 +59,7 @@ const Pricing = () => {
                   </p>
                 </div>
               </Col>
-              {/* Features */}
+
               {FeaturesData.map((item, index) => {
                 return (
                   <Col lg={4} md={6} xs={12} key={index}>
@@ -69,14 +69,12 @@ const Pricing = () => {
               })}
             </Row>
             <Row>
-              {/* FAQs Heading */}
               <Col xs={12}>
                 <div className="mb-6">
                   <h2 className="mb-0">Frequently Asked Questions</h2>
                 </div>
               </Col>
 
-              {/* FAQs List */}
               {FAQsData.map((item, index) => {
                 return (
                   <Col lg={4} md={6} sm={12} className="mb-3" key={index}>

@@ -1,6 +1,5 @@
 //import node module libraries
 import { Outlet } from "react-router";
-import { Fragment } from "react/jsx-runtime";
 import { Link } from "react-router-dom";
 import Sidebar from "components/navbars/sidebar/Sidebar";
 import Header from "components/navbars/topbar/Header";
@@ -14,7 +13,7 @@ const RootLayout = () => {
   };
 
   return (
-    <Fragment>
+    <section className="bg-light">
       <div id="db-wrapper" className={`${showMenu ? "" : "toggled"}`}>
         <div className="navbar-vertical navbar">
           <Sidebar showMenu={showMenu} toggleMenu={ToggleMenu} />
@@ -35,7 +34,7 @@ const RootLayout = () => {
         <Image src="/images/shopping-icon.svg" className="text-white" />
         Buy Now
       </Link>
-    </Fragment>
+    </section>
   );
 };
 

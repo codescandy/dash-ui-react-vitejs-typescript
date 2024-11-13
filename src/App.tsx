@@ -1,4 +1,7 @@
+//import node module libraries
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+//import routes files
 import AuthenticationLayout from "layouts/AuthenticationLayout";
 import RootLayout from "layouts/RootLayout";
 import SignIn from "./pages/auth/SignIn";
