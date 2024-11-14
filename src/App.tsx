@@ -16,6 +16,7 @@ import NotFound from "pages/dashboard/pages/NotFound";
 import LayoutVertical from "pages/dashboard/LayoutVertical";
 import Documentation from "pages/dashboard/Documentation";
 import ChangeLog from "pages/dashboard/Changelog";
+import ApiDemo from "./pages/dashboard/pages/ApiDemo";
 
 // import bootstrap components
 import Accordion from "bootstrap-components/Accordions";
@@ -75,6 +76,10 @@ const App = () => {
             {
               path: "pricing",
               Component: Pricing,
+            },
+            {
+              path: "api-demo",
+              Component: ApiDemo,
             },
           ],
         },

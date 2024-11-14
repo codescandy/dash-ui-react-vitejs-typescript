@@ -100,15 +100,15 @@ const Documentation = () => {
                 <li>
                   <h4 className="mb-0 fw-bold">Start</h4>
                   <p>
-                    Run <code>npm run dev</code> or <code>yarn dev</code> or{" "}
-                    <code>pnpm dev</code> to start the development server on
+                    Run <code>npm run dev</code> or <code>yarn run dev</code> or{" "}
+                    <code>pnpm run dev</code> to start the development server on
                     http://localhost:5173
                   </p>
                   <p>
                     Visit{" "}
                     <code>
                       <Link
-                        to="http://localhost:3000"
+                        to="http://localhost:5173"
                         target="_blank"
                         rel="noreferrer"
                       >
