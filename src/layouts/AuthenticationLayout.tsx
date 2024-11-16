@@ -10,7 +10,7 @@ const AuthenticationLayout = () => {
         <Outlet />
 
         <Link
-          to="https://bit.ly/3YoCCRH"
+          to="https://codescandy.gumroad.com/l/dashui-nextjs"
           target="_blank"
           className="btn btn-dark btn-float-button m-5 fs-4"
         >
@@ -33,7 +33,7 @@ const AuthenticationLayout = () => {
             <path d="M16 22l5 -5" />
             <path d="M21 21.5v-4.5h-4.5" />
           </svg>{" "}
-          Buy Now
+          Free Download
         </Link>
       </Container>
     </section>

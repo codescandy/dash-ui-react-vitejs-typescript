@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+# [DashUI React with Vite & TypeScript Free Admin Template](https://dash-ui-react-vitejs-typescript.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dash UI - React with Vite & TypeScript Free admin / dashboard template created by [Codescandy](https://codescandy.com/) and available on Github
 
-Currently, two official plugins are available:
+![dash-ui-react-vitejs-typescript](https://user-images.githubusercontent.com/68774600/231716707-3da30d19-b826-4692-b03a-fed41376d250.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to use DashUI?
 
-## Expanding the ESLint configuration
+Clone the Dash UI repo:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+git clone https://github.com/codescandy/dash-ui-react-vitejs-typescript.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+cd dash-ui-react-vitejs-typescript
+```
+
+## 🚀 Getting Started
+
+### Installation 👨🏻‍💻
+
+1. Install all packages
+
+```
+npm i
+```
+
+2. Run Development Server
+
+```
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+3. Build your project
+
+```
+npm run build
+```
+
+4. Build preview
+
+```
+npm run preview
+npm run serve
+```
+
+## Deploy on Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcodescandy%2Fdashui-free-nextjs-admin-template.git&project-name=dashui-nextjs-admin-dashboard&repository-name=dashui-free-nextjs-admin-template&skippable-integrations=1)
+
+## Dash UI React with Vite & TypeScript Free / Pro Version
+
+| Free Version                                                 | Dash UI Pro    |
+| ------------------------------------------------------------ | -------------- |
+| 1 Dashboard                                                  | Coming Soon... |
+| Profile                                                      | -              |
+| Settings                                                     | -              |
+| Billing                                                      |
+| Pricing                                                      |
+| Not Found                                                    |
+| Authentication                                               |
+| [Demo](https://dash-ui-react-vitejs-typescript.netlify.app/) |
+
+## Technical Support or Questions
+
+If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/).

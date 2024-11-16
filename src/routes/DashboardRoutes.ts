@@ -156,7 +156,7 @@ export const DashboardMenu: DashboardMenuProps[] = [
   },
   {
     id: uuid(),
-    title: "Download",
+    title: "Free Download",
     icon: "download",
     link: "https://codescandy.gumroad.com/l/dashui-nextjs",
   },

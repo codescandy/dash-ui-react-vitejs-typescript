@@ -262,7 +262,9 @@ const Sidebar: React.FC<SidebarProps> = ({ showMenu, toggleMenu }) => {
                       className={`nav-link ${
                         location.pathname === menu.link ? "active" : ""
                       } ${
-                        menu.title === "Download" ? "bg-primary text-white" : ""
+                        menu.title === "Free Download"
+                          ? "bg-primary text-white"
+                          : ""
                       }`}
                     >
                       {typeof menu.icon === "string" ? (
