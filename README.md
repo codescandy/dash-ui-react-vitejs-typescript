@@ -63,3 +63,17 @@ npm run serve
 
 Ready to use [Figma File](https://www.figma.com/community/file/1259105309122518026/dash-ui-admin-dashboard-template).
 
+
+| Free Version                                                                                  | DashUI PRO                                                                                |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| ✔️ 1 Dashboard                                                                                | -                                                                           |
+| ✔️ 11 HTML Pages                                                                              | -                                                                     |
+| ✔️ Includine Docs                                                                             | -                                                                          |
+| ✔️ 4 Plugins                                                                                  | -                                                                          |
+| ✔️ Source Files                                                                               | -                                                                          |
+| ❌ Dark Mode                                                                                  | -                                                                             |
+| ❌ Layout Options                                                                             | -                                                                      |
+| ❌ Priority Support                                                                           | -                                                                       |
+| -                                                                                             | -                                                                            |
+| [Free Download](https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html) | [Coming Soon]() |
+
