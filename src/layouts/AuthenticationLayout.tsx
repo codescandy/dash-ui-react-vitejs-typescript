@@ -10,7 +10,7 @@ const AuthenticationLayout = () => {
         <Outlet />
 
         <Link
-          to="https://codescandy.gumroad.com/l/dashui-nextjs"
+          to="https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html"
           target="_blank"
           className="btn btn-dark btn-float-button m-5 fs-4"
         >

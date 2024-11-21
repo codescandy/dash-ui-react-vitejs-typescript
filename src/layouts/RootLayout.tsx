@@ -27,7 +27,7 @@ const RootLayout = () => {
       </div>
 
       <Link
-        to="https://codescandy.gumroad.com/l/dashui-nextjs"
+        to="https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html"
         target="_blank"
         className="btn btn-dark btn-float-button m-5 fs-4 d-inline-flex gap-1 align-items-center text-white"
       >

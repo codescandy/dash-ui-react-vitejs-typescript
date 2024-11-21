@@ -158,6 +158,6 @@ export const DashboardMenu: DashboardMenuProps[] = [
     id: uuid(),
     title: "Free Download",
     icon: "download",
-    link: "https://codescandy.gumroad.com/l/dashui-nextjs",
+    link: "https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html",
   },
 ];
