@@ -51,19 +51,29 @@ npm run serve
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcodescandy%2Fdashui-free-nextjs-admin-template.git&project-name=dashui-nextjs-admin-dashboard&repository-name=dashui-free-nextjs-admin-template&skippable-integrations=1)
 
-## Dash UI React with Vite & TypeScript Free / Pro Version
+## Useful Links
 
-| Free Version                                                 | Dash UI Pro    |
-| ------------------------------------------------------------ | -------------- |
-| 1 Dashboard                                                  | Coming Soon... |
-| Profile                                                      | -              |
-| Settings                                                     | -              |
-| Billing                                                      |
-| Pricing                                                      |
-| Not Found                                                    |
-| Authentication                                               |
-| [Demo](https://dash-ui-react-vitejs-typescript.netlify.app/) |
+- [Bootstrap Template](https://dashui.codescandy.com/free-bootstrap-5-admin-dashboard-template.html)
+- [React Template](https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html)
+- [Next.js Template](https://dashui.codescandy.com/free-next-js-admin-dashboard-template.html)
+- [Nuxt.js Template](https://dashui.codescandy.com/free-nuxt-js-admin-dashboard-template.html)
+- [Tailwind Template](https://dashui.codescandy.com/free-tailwindcss-admin-dashboard-html-template.html)
 
-## Technical Support or Questions
+## Figma Design File
 
-If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/).
+Ready to use [Figma File](https://www.figma.com/community/file/1259105309122518026/dash-ui-admin-dashboard-template).
+
+
+| Free Version                                                                                  | DashUI PRO                                                                                |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| ✔️ 1 Dashboard                                                                                | -                                                                           |
+| ✔️ 11 HTML Pages                                                                              | -                                                                     |
+| ✔️ Includine Docs                                                                             | -                                                                          |
+| ✔️ 4 Plugins                                                                                  | -                                                                          |
+| ✔️ Source Files                                                                               | -                                                                          |
+| ❌ Dark Mode                                                                                  | -                                                                             |
+| ❌ Layout Options                                                                             | -                                                                      |
+| ❌ Priority Support                                                                           | -                                                                       |
+| -                                                                                             | -                                                                            |
+| [Free Download](https://dashui.codescandy.com/free-reactjs-admin-dashboard-template.html) | [Coming Soon]() |
+
