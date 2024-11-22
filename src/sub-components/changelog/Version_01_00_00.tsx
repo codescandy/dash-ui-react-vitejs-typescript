@@ -11,7 +11,7 @@ const Version_01_00_00 = () => {
               <Col lg={3} md={4} sm={12}>
                 <div id="initial">
                   <h5 className="mb-3 fwsemi--bold">
-                    <code>v1.0.0</code> - December 1, 2024
+                    <code>v1.0.0</code> - November 21, 2024
                   </h5>
                 </div>
               </Col>
